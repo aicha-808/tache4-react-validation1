@@ -1,38 +1,160 @@
-.App {
+/* .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
+
+ html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+} 
+body{
+  overflow-x: hidden;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ***********Navbar************** */
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+nav.navbar.scrolle {
+  padding: 0px 0;
+  background-color: #61ccfa;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  /* padding: 0 25px; */
+  font-size: 20px;
+  opacity: 0.75; 
+}
+.about-section{
+  background-color: #3CBCFC;
+  padding-top: 17% !important;
+}
+.about-image{
+  margin-bottom: -16%;
+}
+/* -------------services--------- */
+.sect-services{
+ position: relative;
+}
+.sect-services .card{
+  height: 100%;
+  width: 100%;
+}
+/* .sect-services .imgurl{
+  height: 100%;
+  object-fit: cover;
+} */
+.sect-services .haut{
+  height: 20px;
+}
+.sect-services .textCard{
+  position: absolute;
+  top: 30%;
+  padding: 0px 7rem;
+  /* padding-bottom: 50px; */
+}
+.sect-services .contImg{
+  padding: 0px 9rem 5rem 9rem;
+}
+.orange{
+  background-color: #5CCCFC;
+  margin: 0;
+}
+.pomme{
+  background-color: #8CC4BC;
+  margin: 0;
+}
+.sect-services .img-card-top{
+  width: 40% !important;
+}
+
+/* ----testimonials------------ */
+.card-img-top{
+  width: 50px;
+}
+/* ------------------ROJECTS----------- */
+.projects{
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.projects .card-group{
+  display: flex !important;
+  gap: 0 !important;
+}
+.projects .card{
+  height: 400px;
+}
+.projects .img-fluid{
+  height: 100%;
+  object-fit: cover;
+}
+/* ----------Footer---------- */
+.footer{
+  background-color: #8fddc9;
+}
+.info{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.info a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.lien{
+  gap: 4rem !important;
+}
+.icons{
+  gap: 2.5rem !important;
+}
+.icons a img{
+  width: 20px !important;
+}
+/* -----------RESPONSIVE---------------- */
+@media screen and (max-width: 480px) {
+  .about-image img{
+    height: 30%;
+    width: 50%;
+  }
+  
+  .sect-services .card{
+  height: 100%;
+  width: 100%;
+}
+  
+  .sect-services .img-card-top{
+    width: 100px;
+  }
+  .projects{
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .projects .img-fluid{
+    height: 100%;
+    width: 100% !important; 
+    /* object-fit: cover; */
+  }
+  .sect-services .contImg{
+    padding: 0px 3px 5px 3px;
+  }
+  .logo{
+    font-size: 15px;
+  }
+  .about-section h1{
+    font-size: 15px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
