@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/tache4-react-validation1/static/css/main.aa66faa6.css",
+    "main.js": "/tache4-react-validation1/static/js/main.3a9f9995.js",
+    "static/media/female-.jpg": "/tache4-react-validation1/static/media/female-.4ee97cb11c19480894fc.jpg",
+    "static/media/about1.png": "/tache4-react-validation1/static/media/about1.6ecb419310427b91080c.png",
+    "static/media/img2..PNG": "/tache4-react-validation1/static/media/img2..f93dd67d2dec815a17f8.PNG",
+    "static/media/img4.PNG": "/tache4-react-validation1/static/media/img4.b739155b99c6f310a793.PNG",
+    "static/media/imgOeuf.PNG": "/tache4-react-validation1/static/media/imgOeuf.1f3334237cc70d9cfdd9.PNG",
+    "static/media/orange-removebg.png": "/tache4-react-validation1/static/media/orange-removebg.395dad5f8d8cb9894cbb.png",
+    "static/media/img3.PNG": "/tache4-react-validation1/static/media/img3.7bfc07073c18d005cc7a.PNG",
+    "static/media/pomeImg-removebg.png": "/tache4-react-validation1/static/media/pomeImg-removebg.f81934b8c1a8ab6f2f6f.png",
+    "static/media/imgVer.PNG": "/tache4-react-validation1/static/media/imgVer.04022e636bec55b86b46.PNG",
+    "static/media/pinterest.png": "/tache4-react-validation1/static/media/pinterest.a58dca2504abc319c100.png",
+    "static/media/instagram.png": "/tache4-react-validation1/static/media/instagram.48a81d90e94d57702f93.png",
+    "static/media/img1.jpg": "/tache4-react-validation1/static/media/img1.4361fc6cd21b03f8d3ce.jpg",
+    "static/media/twiter.png": "/tache4-react-validation1/static/media/twiter.bbe15e6b2b1b1d510ad1.png",
+    "static/media/avatar3.jpg": "/tache4-react-validation1/static/media/avatar3.982e2bdf07b4df6fb1fb.jpg",
+    "static/media/revicons.eot": "/tache4-react-validation1/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/tache4-react-validation1/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/tache4-react-validation1/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/tache4-react-validation1/index.html",
+    "main.aa66faa6.css.map": "/tache4-react-validation1/static/css/main.aa66faa6.css.map",
+    "main.3a9f9995.js.map": "/tache4-react-validation1/static/js/main.3a9f9995.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa66faa6.css",
+    "static/js/main.3a9f9995.js"
+  ]
+}
