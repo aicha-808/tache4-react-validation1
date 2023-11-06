@@ -4,6 +4,7 @@ import imgOeuf from '../images/imgOeuf.PNG';
 import imgtpomme from '../images/pomeImg-removebg.png';
 import imgtVert from '../images/imgVer.PNG';
 import imgtOrange from '../images/orange-removebg.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Services = () => {
     // const composantCard = [

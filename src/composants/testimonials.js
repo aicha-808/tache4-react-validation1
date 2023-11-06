@@ -39,13 +39,13 @@ export const Testimonials = () => {
             imgUrl: testimonial2,
             description: "Sunnyside's enthusiasm coupled with their keen interest in our brand's success ade it a satisfying and enjoyable experience.",
             Nom: "Thoas S.",
-            Poste: " Maketing Director"
+            Poste: " Maketing Director",
         },
         {
             imgUrl: testimonial3,
             description: "Incredible end result! Our sales increased over 40% when we worked with Sunnyside. Highly recommended!",
             Nom: "Jennie F.",
-            Poste: "Business Owner"
+            Poste: "Business Owner",
         }
     ]
 
@@ -59,7 +59,7 @@ export const Testimonials = () => {
                             {
                                 composantCarousel.map((carousel, index) => {
                                     return (
-                                        <ComposantCarousel key={index} {...carousel}/>
+                                        <ComposantCarousel key={index} {...carousel} />
                                     )
                                 })
                             }

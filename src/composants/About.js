@@ -1,9 +1,11 @@
 import { Row, Col, Container } from "react-bootstrap";
 import aboutImg from '../images/about1.png';
+import '../App.css';
+import '../index.css';
 
 export const About = () => {
     return(
-        <section className="about-section text-center text-light p-0 m-0" id="about">
+        <section className="about-section text-center text-light " id="about">
             <Container fluid>
                 <Row>
                     <Col sm={12}>
