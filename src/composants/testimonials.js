@@ -50,10 +50,10 @@ export const Testimonials = () => {
     ]
 
     return(
-        <section className="testimonial-sect text-center bg-light py-5" id="testimonials">
-            <Container>
-                <Row >
-                    <h4 className="mt-5 fw-semibold">CLIENT TESTIMONIALS</h4>
+        <section className="testimonial-sect text-center bg-light py-5 px-0" id="testimonials">
+            <Container fluid className="p-0 m-0">
+                <Row className="w-75 mx-auto">
+                    <h4 className="mt-4 fw-semibold">CLIENT TESTIMONIALS</h4>
                     <Col>
                         <Carousel responsive={responsive} infinite={true} className="testimonials">
                             {

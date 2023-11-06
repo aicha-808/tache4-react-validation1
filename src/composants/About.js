@@ -7,8 +7,8 @@ export const About = () => {
             <Container fluid>
                 <Row>
                     <Col sm={12}>
-                        <h1 className="fw-semibold">WE ARE CREATIVES</h1>
-                        <div className="about-image">
+                        <h1 className="fw-semibold lh-2">WE ARE CREATIVES</h1>
+                        <div className="about-image mt-5">
                             <img src={aboutImg} alt=""></img>
                         </div>
                     </Col>

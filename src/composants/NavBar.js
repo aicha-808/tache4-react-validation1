@@ -31,7 +31,7 @@ export const NavBar = () => {
           <span className="w-semibold h1 text-light logo">Sunnyside</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <span className="Navbar-toggle-icon"></span>
+        <span className="Navbar-toggle-icon ms-end"></span>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#about" className={activeLink === 'about'? "active navbar.link": 'navbar-link'}

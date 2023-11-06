@@ -14,6 +14,7 @@
 body{
   overflow-x: hidden;
   position: relative;
+
 }
 
 /* ***********Navbar************** */
@@ -24,6 +25,8 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  padding: 0;
+  margin: 0;
 }
 nav.navbar.scrolle {
   padding: 0px 0;
@@ -77,9 +80,14 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   margin: 0;
 }
 .sect-services .img-card-top{
+  width: 70% !important;
+}
+.sect-services .gros{
   width: 40% !important;
 }
-
+.sect-services .img2{
+  width: 100%;
+}
 /* ----testimonials------------ */
 .card-img-top{
   width: 50px;
@@ -96,9 +104,9 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 .projects .card{
   height: 400px;
 }
-.projects .img-fluid{
+.projects .project-img .img-fluid {
+  width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 /* ----------Footer---------- */
 .footer{
@@ -111,7 +119,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 .info a {
   text-decoration: none;
   color: black;
-  text-align: center;
+  /* text-align: center; */
 }
 .lien{
   gap: 4rem !important;
@@ -124,9 +132,15 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 /* -----------RESPONSIVE---------------- */
 @media screen and (max-width: 480px) {
+  body{
+    width: 100%;
+  }
+  /* section{
+    width: 100% !important;
+  } */
   .about-image img{
-    height: 30%;
-    width: 50%;
+    height: 10%;
+    width: 10%;
   }
   
   .sect-services .card{
@@ -137,15 +151,17 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   .sect-services .img-card-top{
     width: 100px;
   }
+  .sect-services .contImg{
+    padding: 0px;
+  }
   .projects{
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
   }
-  .projects .img-fluid{
+  .projects .project-img .img-fluid {
+    width: 100%;
     height: 100%;
-    width: 100% !important; 
-    /* object-fit: cover; */
   }
   .sect-services .contImg{
     padding: 0px 3px 5px 3px;
@@ -155,6 +171,17 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   }
   .about-section h1{
     font-size: 15px;
+  }
+  /* ---footer------*/
+  .footer .lien{
+    display: block !important;
+    gap: 0.5rem !important;
+  }
+  .footer .icons{
+    gap: 0.5rem !important;
+  }
+  .footer .icons a img{
+    width: 15px !important;
   }
 }
 

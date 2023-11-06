@@ -21,8 +21,8 @@ export const Projects = () => {
         }
     ]
     return(
-        <section className="projects" id="projects">
-            <Container fluid>
+        <section className="projects " id="projects">
+            <Container fluid className="p-0 m-0">
                 <Row className="d-flex g-0">
                     {
                         projects.map((project, index) => {
