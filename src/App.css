@@ -14,6 +14,7 @@
 body{
   overflow-x: hidden;
   position: relative;
+  background-color: #3CBCFC;
 
 }
 
@@ -32,20 +33,27 @@ nav.navbar.scrolle {
   padding: 0px 0;
   background-color: #61ccfa;
 }
-nav.navbar .navbar-nav .nav-link.navbar-link {
+
+nav.navbar.navbar.link.active{
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  /* padding: 0 25px; */
+   margin: 0 40px; 
   font-size: 20px;
   opacity: 0.75; 
+  background-color: red;
 }
+/* *************About ****************** */
+ 
 .about-section{
   background-color: #3CBCFC;
-  padding-top: 17% !important;
+  padding-top: 10% !important;
 }
 .about-image{
   margin-bottom: -16%;
+}
+.about-section h1{
+  font-size: 20px;
 }
 /* -------------services--------- */
 .sect-services{
@@ -55,10 +63,6 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   height: 100%;
   width: 100%;
 }
-/* .sect-services .imgurl{
-  height: 100%;
-  object-fit: cover;
-} */
 .sect-services .haut{
   height: 20px;
 }
@@ -71,6 +75,9 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 .sect-services .contImg{
   padding: 0px 9rem 5rem 9rem;
 }
+.sect-services .card-body{
+  padding: 0rem 9rem ;
+}
 .orange{
   background-color: #5CCCFC;
   margin: 0;
@@ -79,11 +86,15 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   background-color: #8CC4BC;
   margin: 0;
 }
-.sect-services .img-card-top{
-  width: 50% !important;
+.sect-services .gros{
+  width: 80% !important;
 }
 .sect-services .img2{
   width: 100%;
+}
+.sect-services .petit{
+  height: 50%;
+  width: 50%;
 }
 /* ----testimonials------------ */
 .card-img-top{
@@ -98,8 +109,15 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   display: flex !important;
   gap: 0 !important;
 }
-.projects .card{
-  height: 400px;
+.projects .projImg{
+  height: 80%;
+}
+.projCard{
+  border-radius: 0%;
+}
+.image{
+  height: 350px;
+  object-fit: cover;
 }
 .projects .project-img .img-fluid {
   width: 100%;
@@ -128,23 +146,23 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   width: 20px !important;
 }
 /* -----------RESPONSIVE---------------- */
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   body{
     width: 100%;
   }
-  /* section{
-    width: 100% !important;
-  } */
   .about-image img{
-    height: 10%;
-    width: 10%;
+    height: 30%;
+    width: 30%;
+  }
+  .about-image{
+    margin-bottom: -5%;
   }
   
   .sect-services .card{
   height: 100%;
   width: 100%;
 }
-  
+/* ***********Services***************** */
   .sect-services .img-card-top{
     width: 100px;
   }
@@ -152,23 +170,22 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     padding: 0px;
   }
   .projects{
-    text-align: center;
+  
     margin-left: 0px;
     margin-right: 0px;
   }
-  .projects .project-img .img-fluid {
+ 
+  /* .projects .project-img .img-fluid {
     width: 100%;
     height: 100%;
-  }
+  } */
   .sect-services .contImg{
     padding: 0px 3px 5px 3px;
   }
   .logo{
     font-size: 15px;
   }
-  .about-section h1{
-    font-size: 15px;
-  }
+ 
   /* ---footer------*/
   .footer .lien{
     display: block !important;

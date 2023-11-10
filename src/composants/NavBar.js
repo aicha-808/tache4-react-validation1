@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import '../App.css';
 import '../index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const NavBar = () => {
 
   const [scrolle, setScrolle] = useState(false);
-  const [activeLink, setActiveLink] = useState('about');
+  const [activeLink, setActiveLink] = useState('');
 
   // ecoutons le scrolle de la page
   useEffect (() => {
@@ -38,14 +39,12 @@ export const NavBar = () => {
           <Nav className="ms-auto">
             <Nav.Link href="#about" className={activeLink === 'about'? "active navbar.link": 'navbar-link'}
             onClick={() => onActiveLink('home')}>About</Nav.Link>
-            <Nav.Link href="#services" className={activeLink === 'services'? "active navbar.link" : 'navbar.link'}
+            <Nav.Link href="#services" className={activeLink === 'services'? "active navbar.link text-dark" : 'navbar-link'}
             onClick={() => onActiveLink('services')}>Services</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === 'projects'? "active navbar.link": "navbar.link"}
+            <Nav.Link href="#projects" className={activeLink === 'projects'? "active navbar.link": "navbar-link"}
             onClick={() => onActiveLink('pojects')}>Projects</Nav.Link>
           </Nav>
-          <div>
-            <button className="btn bg-light rounded-3 py-2 px-3" onClick={() => alert('contacter...')}>Contact</button>
-          </div>
+            <button className="btn bg-light rounded-5 py-2 px-3" onClick={() => alert('contacter...')}>Contact</button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
