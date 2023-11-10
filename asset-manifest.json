@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tache4-react-validation1/static/css/main.5fa188c4.css",
-    "main.js": "/tache4-react-validation1/static/js/main.f87bfa47.js",
+    "main.css": "/tache4-react-validation1/static/css/main.2ca44a49.css",
+    "main.js": "/tache4-react-validation1/static/js/main.e582223b.js",
     "static/media/female-.jpg": "/tache4-react-validation1/static/media/female-.4ee97cb11c19480894fc.jpg",
     "static/media/img11.jpg": "/tache4-react-validation1/static/media/img11.e7ae5deeb0102cee9c07.jpg",
     "static/media/about1.png": "/tache4-react-validation1/static/media/about1.6ecb419310427b91080c.png",
@@ -20,11 +20,11 @@
     "static/media/revicons.ttf": "/tache4-react-validation1/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/tache4-react-validation1/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/tache4-react-validation1/index.html",
-    "main.5fa188c4.css.map": "/tache4-react-validation1/static/css/main.5fa188c4.css.map",
-    "main.f87bfa47.js.map": "/tache4-react-validation1/static/js/main.f87bfa47.js.map"
+    "main.2ca44a49.css.map": "/tache4-react-validation1/static/css/main.2ca44a49.css.map",
+    "main.e582223b.js.map": "/tache4-react-validation1/static/js/main.e582223b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fa188c4.css",
-    "static/js/main.f87bfa47.js"
+    "static/css/main.2ca44a49.css",
+    "static/js/main.e582223b.js"
   ]
 }
