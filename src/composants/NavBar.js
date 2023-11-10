@@ -29,11 +29,11 @@ export const NavBar = () => {
     return(
       
         <Navbar expand="lg" className={scrolle? "scrolle" : ""}>
-      <Container>
+      <Container >
         <Navbar.Brand href="#about">
           <span className="w-semibold h1 text-light logo">Sunnyside</span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         {/* <span className="Navbar-toggle-icon "></span> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

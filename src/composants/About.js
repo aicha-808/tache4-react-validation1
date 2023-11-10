@@ -7,9 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const About = () => {
     return(
         <section className="about-section text-center text-light " id="about">
-            <Container fluid>
+            <Container fluid className="px-0">
                 <Row>
-                    <Col sm={12}>
+                    <Col sm={12} className="px-0">
                         <h1 className="fw-semibold lh-2">WE ARE CREATIVES</h1>
                         <div className="about-image mt-5">
                             <img src={aboutImg} alt="" className="img-fluid"></img>

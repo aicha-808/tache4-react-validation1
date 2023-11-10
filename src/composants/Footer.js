@@ -10,7 +10,7 @@ export const Footer = () => {
         <section className="footer  text-center" id="footer">
            <Container fluid  className="p-0 m-0">
                 <Row className=" ">
-                   <Col sm={12} md={12} className="info py-5 m-0">
+                   <Col sm={12} md={12} className="info py-5 m-0 px-0">
                         <span className="w-semibold h4 mt-3">Sunnyside</span>
                         <div className="lien d-flex mx-auto mt-3">
                             <p><a href="#about">About</a></p>
